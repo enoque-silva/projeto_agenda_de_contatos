@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imagens/icone-contato.png" alt="Ícone de perfil de usuário">
+            <h1>Agenda de Contatos</h1>
+        </header>    
+        
+        <form id="formulario">
+            <input id="nome" type="text" placeholder="Nome" required>
+            <input id="telefone" type="tel" placeholder="Telefone" maxlength="15" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <table cellspacing = "0" >
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>            
+            </thead>
+            <tbody>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+<footer>
+    <div class="container">
+        <p>&copy;2024 por Enoque Ribeiro. Todos os direitos reservados.</p>
+    </div>    
+</footer>
+</html>
